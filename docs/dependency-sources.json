@@ -105,7 +105,10 @@
         "skills/nsfc-qc/SKILL.md",
         "skills/nsfc-reviewers/SKILL.md"
       ],
-      "required_paths": [],
+      "required_paths": [
+        "packages/bensz-nsfc/package.json",
+        "packages/bensz-fonts/package.json"
+      ],
       "license_path": "license.txt",
       "license": "MIT; third-party material separately licensed"
     }

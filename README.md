@@ -87,7 +87,7 @@
 
 **原作者优先，你的 fork 备用。**平时读取原作者的仓库；确认原仓库删除或确实不可用时，再使用已核实的用户备用副本。定期维护只更新备用副本，不改变来源顺序。六组来源、当前核实版本与维护方法见[外部 skills 与备用仓库](docs/skill-sources.md)。
 
-- **中文 NoteTemplate 已随两个新 skill 提供。**使用用户原始模板，包含 Chinese 与 English 两套；独立中文综述和后续想法默认用 Chinese。见 [原模板压缩包](skills/literature-review/assets/NoteTemplate.zip) 与 [使用方法](skills/literature-review/references/notetemplate.md)。
+- **中文 NoteTemplate 随文献综述和论文写作提供。**使用用户原始模板，包含 Chinese 与 English 两套；独立中文综述和后续想法默认用 Chinese。见 [原模板压缩包](skills/literature-review/assets/NoteTemplate.zip) 与 [使用方法](skills/literature-review/references/notetemplate.md)。
 - **期刊模板由用户指定。**[模板索引](skills/paper-writing/references/templates.md) 保存 Elsevier、PNAS、SIAM、Journal of Mathematical Biology 和 PLOS Computational Biology 的官方入口，使用时核对具体期刊与文章类型，不擅自修改 .cls。
 - **按任务组合已有 skills。**[写作与研究入口](skills/paper-writing/references/optional-skills.md) 包含 Academic Research Skills、academic-writer、humanizer 与本仓库的 paper-figures。已安装就调用，可读取时按需读取；链接不等于自动安装或已运行。
 

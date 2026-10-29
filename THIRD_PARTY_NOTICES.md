@@ -20,7 +20,7 @@
 | [Humanizer](https://github.com/blader/humanizer) | [MIT](https://github.com/blader/humanizer/blob/main/LICENSE) | 学术修订之后的轻量语言编辑 |
 | [research-skills / academic-writer](https://github.com/drarunmitra/research-skills/tree/main/academic-writer) | 仓库为 [CC BY 4.0](https://github.com/drarunmitra/research-skills/blob/main/LICENSE) | 学术措辞、论证与引用的一致性 |
 
-论文模板索引只链接出版社、期刊或其发布的官方模板，具体文件继续遵守原许可。用户提供并授权加入的 NoteTemplate.zip 与这些外部模板不同：它作为原始资产随两个新 skill 提供，未打包它所依赖的第三方 TeX 宏包或字体。原包 SHA-256 为 36ceef0dd7e42a4fd778c32d792a988f9a40758c9f08d157beef3b1375b6ff00。
+论文模板索引只链接出版社、期刊或其发布的官方模板，具体文件继续遵守原许可。用户提供并授权加入的 NoteTemplate.zip 与这些外部模板不同：它作为原始资产随文献综述与论文写作提供，未打包它所依赖的第三方 TeX 宏包或字体。原包 SHA-256 为 36ceef0dd7e42a4fd778c32d792a988f9a40758c9f08d157beef3b1375b6ff00。
 
 ## 用户提供的回复与审稿模板
 
