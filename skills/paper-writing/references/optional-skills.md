@@ -13,6 +13,6 @@
 
 已安装就通过宿主支持的方式使用；未安装但可访问时读取入口及所需参考文件，再应用相关做法。链接本身不代表安装、调用或完成验证。来源不可访问时按当前技能继续工作，简短说明限制。
 
-用户当前要求优先：简体中文沟通、指定 LaTeX 模板、论文不含工程笔记式表述、数学严谨性及任务范围。不自动继承外部流水线的逐阶段审批、APA 格式、固定 Introduction 段数或其他不适用约定。
+用户当前要求优先：简体中文沟通、指定 LaTeX 模板、论文不含工程笔记式表述、减少不必要的防御性论述且不增强原文结论、数学严谨性及任务范围。不自动继承外部流水线的逐阶段审批、APA 格式、固定 Introduction 段数或其他不适用约定。
 
 核查日期：2026-10-29。Academic Research Skills 为 [CC BY-NC 4.0](https://github.com/Imbad0202/academic-research-skills/blob/main/LICENSE)，academic-writer 所在仓库为 [CC BY 4.0](https://github.com/drarunmitra/research-skills/blob/main/LICENSE)，humanizer 为 [MIT](https://github.com/blader/humanizer/blob/main/LICENSE)。这里仅保存来源与使用位置，不复制它们的正文、代码或素材，也不重新授权它们。

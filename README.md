@@ -49,6 +49,8 @@
 
 **正文和 Supplement 都要写成学术论文，别加工程笔记类的话。**围绕科学问题、方法、证据与结论来写。脚本调用、文件流转、fallback、运行日志和 AI 修订过程放在需要它们的复现文档或内部记录；模型、离散、噪声、优化参数和统计规则完整保留，用准确的学术语言表达。每轮修改都检查这一条。
 
+**减少防御性论述。**逐句检查不必要的预防性辩解、否定式铺垫和重复免责声明。优先直接陈述研究发现，把笼统保留改为有依据的具体边界；保留必要的不确定性、研究局限与相关性／因果性区分，不增强原文结论。每轮审改都执行。
+
 ## 模板与外部 skills
 
 - **中文 NoteTemplate 已随两个新 skill 提供。**使用用户原始模板，包含 Chinese 与 English 两套；独立中文综述和后续想法默认用 Chinese。见 [原模板压缩包](skills/literature-review/assets/NoteTemplate.zip) 与 [使用方法](skills/literature-review/references/notetemplate.md)。
