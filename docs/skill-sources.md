@@ -23,6 +23,12 @@
 
 英文 blader/humanizer 与 academic-writer 暂无已核实的用户备用仓库；Humanizer-zh 不是英文 humanizer 的相同副本。本地 math-model-skills 的来源需在使用环境核实，不猜测备用地址。
 
+## 全部任务的语言编辑参考
+
+2026-10-29 实际读取了 [blader/humanizer 的 SKILL.md](https://github.com/blader/humanizer/blob/main/SKILL.md)（v3.1.0，文件 blob `19fc634208e8cc6ae55d4ff287152583216fd244`）与 [op7418/Humanizer-zh 的 SKILL.md](https://github.com/op7418/Humanizer-zh/blob/main/SKILL.md)（文件 blob `ef07b54da21a41d4a7e4fe0b0afb928f597eb684`）。本次两者原库均可用；这项阅读核查不代表对备用仓库执行了同步。
+
+将适合科研文体的编辑原则与用户要求整理为[统一语言约定](language-conventions.md)：术语先核实，表达具体自然，去工程记录化，保留条件与结论强度，逐项检查图示标签。两项外部 skill 用于语言编辑，不承担专业术语或数学结论核验；不照搬口语化、个性化表达或机械词表，也不把 AI 检测分数作为质量标准。各 skill 随附同一份语言约定，可独立执行；第三方正文仅外链，不复制进本仓库。
+
 ## 科研展示新增的使用入口
 
 research-presentation 继续优先读取 Vivid 的 `channels/vivid-architecture-diagram-skill/SKILL.md` 和 Nature 的 `skills/nature-paper2ppt/SKILL.md`。两者沿用上表已核实的备用副本；本次已在记录的同一提交上检查架构图共同规则、PPTX 导出资料、架构依赖、paper2ppt manifest 与共享术语文件，并加入来源记录。
@@ -30,6 +36,14 @@ research-presentation 继续优先读取 Vivid 的 `channels/vivid-architecture-
 数学 Beamer 使用 [YixuanYang00/math-beamer-slides-skill](https://github.com/YixuanYang00/math-beamer-slides-skill)，报告组织可参考 [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)。本次已读取准确入口和相关依赖说明，未核实这些项目的用户 fork，也未新增自动维护对象。具体读取方法、输出限制与可选 PaperBanana、AutoFigure 入口见[科研展示资料卡](../skills/research-presentation/references/resources.md)。
 
 新增引用不等于第三方工具已安装、外部服务已配置或所有路线完成运行验证；按任务选择并实际检查成品。
+
+### PPT 与 Beamer 的补充调查
+
+2026-10-29 进一步检查了 Anthropic pptx、MiniMax pptx-generator、Addsum slide-maker、mblode presentation-creator、frontend-slides、Slidev 官方 skill、Baoyu slide-deck、paper-to-slides 与 OpenAI 当前 Google Slides 入口。读取实际 SKILL.md 或任务相关章节，并检查涉及的说明、输出机制和许可；Addsum 的长说明仅阅读相关部分，未通读全文。完整来源、分工和配套文件见[科研展示资料卡](../skills/research-presentation/references/resources.md)。
+
+吸收的内容已进入学术汇报任务卡：区分现场讲解和独立阅读，先盘点关键图与结果，按页组织信息和证据，按需要写逐页讲稿，检查各类对象的编辑能力以及源文件可移植性。新报告、新图与实质性重构在构思时继续检索相关 skill；局部修改沿用已有依据。
+
+特别区分输出形式：Baoyu 默认合并图片页；frontend-slides 主要输出 HTML；Slidev 的普通 PPTX 导出为图片页，pptx-editable 仅在支持范围内重建对象，公式等仍可能为图片。旧 OpenAI slides 路径失效时使用已核实的新入口，不能因此直接改用备用 fork。本次没有为这些新增来源创建 fork、安装所有工具或调用外部生成服务。
 
 ## 定期维护怎样做
 

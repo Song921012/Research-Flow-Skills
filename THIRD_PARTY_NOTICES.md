@@ -59,5 +59,14 @@ fork 不改变原始许可，备用更新不意味着本项目重新授权、改
 | [K-Dense Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 根 [LICENSE.md](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/LICENSE.md) 为 MIT；按需引用 scientific-slides 与 scientific-schematics，实际工具或第三方服务另行满足条件。 |
 | [PaperBanana](https://github.com/dwzhu-pku/PaperBanana) | 根 [LICENSE](https://github.com/dwzhu-pku/PaperBanana/blob/main/LICENSE) 为 Apache-2.0，skill 有单独许可声明；可选参考图示检索、构思与迭代流程。 |
 | [AutoFigure](https://github.com/ResearAI/AutoFigure) | 根 [LICENSE](https://github.com/ResearAI/AutoFigure/blob/main/LICENSE) 为 MIT；作为可选 SVG/draw.io 工具入口。 |
+| [Anthropic pptx](https://github.com/anthropics/skills/tree/main/skills/pptx) | 该目录的 [LICENSE.txt](https://github.com/anthropics/skills/blob/main/skills/pptx/LICENSE.txt) 为专有许可；仅引用入口与一般制作、检查方法，不复制其文本、代码或资产。 |
+| [MiniMax skills](https://github.com/MiniMax-AI/skills) | 根 [LICENSE](https://github.com/MiniMax-AI/skills/blob/main/LICENSE) 为 MIT；参考 pptx-generator 的原生对象、主题与导出检查方法。 |
+| [Addsum slides_maker](https://github.com/addsumtech/slides_maker) | 根 [LICENSE](https://github.com/addsumtech/slides_maker/blob/main/LICENSE) 为 MIT；参考内容、设计与审阅方法。 |
+| [mblode agent-skills](https://github.com/mblode/agent-skills) | 根 [LICENSE.md](https://github.com/mblode/agent-skills/blob/main/LICENSE.md) 为 MIT；参考 presentation-creator 的故事与页面组织。 |
+| [frontend-slides](https://github.com/zarazhangrui/frontend-slides) | 根 [LICENSE](https://github.com/zarazhangrui/frontend-slides/blob/main/LICENSE) 为 MIT；参考风格索引与页面设计。 |
+| [Slidev](https://github.com/slidevjs/slidev) | 根 [LICENSE](https://github.com/slidevjs/slidev/blob/main/LICENSE) 为 MIT；引用官方 skill、导出说明与展示入口；具体主题和素材另行核实。 |
+| [paper-to-slides](https://github.com/yigengjiang/paper-to-slides) | 根 [LICENSE](https://github.com/yigengjiang/paper-to-slides/blob/main/LICENSE) 为 MIT；参考论文证据、Beamer 与逐页讲稿组织。 |
+| [Baoyu skills](https://github.com/JimLiu/baoyu-skills) | 根 [LICENSE](https://github.com/JimLiu/baoyu-skills/blob/main/LICENSE) 为 MIT；参考 slide-deck 的构思与页面设计，不将图片页称为原生可编辑 PPT。 |
+| [OpenAI Google Slides](https://github.com/openai/plugins/tree/main/plugins/google-drive/skills/google-slides) | 本次未确认适用于重新分发的许可，仅链接当前正式入口，不打包其技能、依赖或宿主能力。 |
 
 公开流程由本项目独立撰写。引用外部技能不等于将其重新授权为 MIT，也不代表已完成第三方服务的付费或运行验证。实际取用论文图、图标、字体与模板时，分别保留其来源及许可。

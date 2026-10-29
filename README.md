@@ -2,6 +2,12 @@
 
 把经常重复的科研工作整理成简短、可扩展的 AI 协作流程。用户只需说明这次要做什么，AI 读取对应任务卡，按已有习惯处理。
 
+## 所有任务共同遵守
+
+**术语规范，意思清楚，去 AI 化，去工程记录化。**这条适用于正文、附件、图表、流程图、PPT/Beamer、审稿回复及交付说明。先准确说清研究对象、方法和目的，再精简文字与安排版式；不为排版省略决定专业含义的词。必要的数学假设、研究局限和复现信息继续保留。
+
+完整要求见[统一语言约定](docs/language-conventions.md)，已放入每个 skill，单独使用也会执行。按语言参考 humanizer、humanizer-zh，专业术语另查可靠文献。后续可直接提出全局偏好或某个流程的修改意见，在实际任务中逐条改进。
+
 ## 目前有哪些流程
 
 | Skill | 做什么 | 当前状态 |
@@ -97,7 +103,9 @@
 
 > 按科研展示流程，把这篇论文做成 20 分钟中文 Beamer，先讲清问题和关键想法，再讲数学与证据。结构和审美由你判断，完成后看页修改。
 
-**集成按需要发生。**[资料卡](skills/research-presentation/references/resources.md)记录什么时候用 Vivid architecture、Nature paper2ppt、Math Beamer、Scientific Slides 和当前 PPT 工具，必须读取什么文件，以及结果如何接回当前作品。外部链接不会自动安装技能或服务；精确内容使用可核对、可编辑的制作路线。
+**构思时主动找合适的方法。**新报告、新图或较大改版，会按题材、听众和目标格式搜索适用 skills 与优秀范例，不局限于已收录名单；简单续改沿用已经核实的资料。AI 自己选择并把方法用进作品，用户不需要先研究工具或挑选范图。
+
+**集成按需要发生。**[资料卡](skills/research-presentation/references/resources.md)包含论文故事与讲稿、数学 Beamer、页面设计、原生 PPT、模板编辑和验收等来源：Nature、paper-to-slides、Math Beamer、mblode、Anthropic、MiniMax、Addsum、frontend-slides、Baoyu、Slidev，以及 Vivid 等。每项写清实际作用、必要文件和输出限制。HTML、图片式 PPT 与原生可编辑 PPT 分别判断；实际制作遵守当前宿主工具要求，外部链接不等于已经安装或运行。
 
 **按内容分工。**真实数值和实验数据图仍由 paper-figures 负责，模型关系与整套汇报由 research-presentation 负责；基金科学内容仍由 grant-writing 负责。用户说清任务即可，不需要自己分配 skills。
 
