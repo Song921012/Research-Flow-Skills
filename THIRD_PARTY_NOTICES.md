@@ -10,6 +10,18 @@
 | [Nature skills / nature-figure](https://github.com/Yuan1z0825/nature-skills/tree/4a04b953c13c57adc51e202ce296597f00d29d67/skills/nature-figure) | [`4a04b953c13c57adc51e202ce296597f00d29d67`](https://github.com/Yuan1z0825/nature-skills/commit/4a04b953c13c57adc51e202ce296597f00d29d67) | 根目录为 [Apache-2.0](https://github.com/Yuan1z0825/nature-skills/blob/4a04b953c13c57adc51e202ce296597f00d29d67/LICENSE)；第三方材料另有声明 | 作为可选外部 skill，不复制其实现；不能将其中第三方资源一概视为 Apache 或 MIT。 |
 | [figures4papers](https://github.com/ChenLiu-1996/figures4papers) | [`b709de17da7e8f9a72e51a5de5bced924a01eeab`](https://github.com/ChenLiu-1996/figures4papers/commit/b709de17da7e8f9a72e51a5de5bced924a01eeab) | [CC BY-NC 4.0](https://github.com/ChenLiu-1996/figures4papers/blob/b709de17da7e8f9a72e51a5de5bced924a01eeab/LICENSE) | 提供范图、说明和源码链接；所链接内容不属于本仓库的 MIT 授权范围。 |
 
+## 新增研究与写作来源
+
+以下入口于 2026-10-29 核对，均仅外链，不打包其正文、代码或素材。用户未指定精确仓库时，将它们作为可替换的候选来源。
+
+| 项目 | 核实的许可 | 使用位置 |
+| --- | --- | --- |
+| [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) | [CC BY-NC 4.0](https://github.com/Imbad0202/academic-research-skills/blob/main/LICENSE) | deep-research、academic-paper、academic-paper-reviewer |
+| [Humanizer](https://github.com/blader/humanizer) | [MIT](https://github.com/blader/humanizer/blob/main/LICENSE) | 学术修订之后的轻量语言编辑 |
+| [research-skills / academic-writer](https://github.com/drarunmitra/research-skills/tree/main/academic-writer) | 仓库为 [CC BY 4.0](https://github.com/drarunmitra/research-skills/blob/main/LICENSE) | 学术措辞、论证与引用的一致性 |
+
+论文模板索引只链接出版社、期刊或其发布的官方模板，具体文件继续遵守原许可。用户提供并授权加入的 NoteTemplate.zip 与这些外部模板不同：它作为原始资产随两个新 skill 提供，未打包它所依赖的第三方 TeX 宏包或字体。原包 SHA-256 为 36ceef0dd7e42a4fd778c32d792a988f9a40758c9f08d157beef3b1375b6ff00。
+
 ## 使用时需要注意的边界
 
 - **Vivid：**现行许可限定个人非商业使用，并限制未经作者书面许可的修改、衍生、二次开发、再分发和商业使用。安装在本地不额外授予这些权利；引用它也不意味着可以将其模板改编后公开发布。
