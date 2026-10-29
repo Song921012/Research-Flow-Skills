@@ -1,4 +1,4 @@
 interface:
   display_name: "科研展示"
   short_description: "先理清科研故事，再自主构思制作流程图、方法总览及 Beamer/PPT 汇报，并看图修改验收"
-  default_prompt: "使用 $research-presentation，先理清材料要讲的故事，构思时查找适用的 skills 与优秀范例，核对专业术语，自主选定图示或汇报方案，制作、看图修改并交付可编辑成品。"
+  default_prompt: "使用 $research-presentation，按本次范围理清故事，构思时查适用 skills 与范例，核对术语，自主选定方案并完成所需制作、看图修改与交付。"

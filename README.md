@@ -107,6 +107,8 @@
 
 **集成按需要发生。**[资料卡](skills/research-presentation/references/resources.md)包含论文故事与讲稿、数学 Beamer、页面设计、原生 PPT、模板编辑和验收等来源：Nature、paper-to-slides、Math Beamer、mblode、Anthropic、MiniMax、Addsum、frontend-slides、Baoyu、Slidev，以及 Vivid 等。每项写清实际作用、必要文件和输出限制。HTML、图片式 PPT 与原生可编辑 PPT 分别判断；实际制作遵守当前宿主工具要求，外部链接不等于已经安装或运行。
 
+先读简短的资料使用方法，选定来源后再查[外部技能详细目录](skills/research-presentation/references/external-skills.md)。八个技能均按本次任务读取资料：只换模板、只给文字意见或只做局部改图时，保持对应范围；同一任务内已读的同版资料直接复用。
+
 **按内容分工。**真实数值和实验数据图仍由 paper-figures 负责，模型关系与整套汇报由 research-presentation 负责；基金科学内容仍由 grant-writing 负责。用户说清任务即可，不需要自己分配 skills。
 
 **验收看实际成品。**先核对故事、公式、箭头与证据，再查看最终图和每页的遮挡、字号、布局与可编辑性。用户不必预先提供认可范图，也不承担逐轮选版。局部改图或改页保持其余内容。

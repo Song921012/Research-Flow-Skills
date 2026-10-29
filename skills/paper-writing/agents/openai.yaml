@@ -1,4 +1,4 @@
 interface:
   display_name: "论文写作"
-  short_description: "从粗稿、精修到投稿和项目交接，坚持学术表达与数学严谨性"
-  default_prompt: "使用 $paper-writing，按当前论文阶段处理这些材料，正文和附件避免工程笔记式表述。"
+  short_description: "按阶段完成粗稿、精修、投稿前检查、复现整理与项目交接，保留原稿和数学严谨性"
+  default_prompt: "使用 $paper-writing，按当前论文阶段和本次范围处理材料，正文和附件遵守学术表达与数学严谨性要求。"

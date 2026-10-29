@@ -2,6 +2,7 @@
 
 - 当前有 skills/paper-figures、skills/literature-review、skills/paper-writing、skills/journal-submission、skills/peer-review、skills/grant-writing、skills/math-modeling 和 skills/research-presentation。先读对应 SKILL.md，再按任务读取直接链接的资料；用户只做局部修改时不要启动全套流程。
 - 保持主说明简短，使用通俗中文。文献综述保留三类任务，论文写作保留六类任务；两者是可逐步改进的初版，不提前增加复杂框架。
+- 优化结构时保留业务要求、模板和来源信息。描述用于准确选中技能，主入口写清本次需读哪张卡；详细来源按需读取并由主入口直接链接。同一任务中已读的同版资料可复用，期刊、阶段或材料变化时仍按原要求重新核实。
 - 全部任务执行 docs/language-conventions.md：采用领域通行术语，文字准确、自然、具体；正文、图表、流程图、PPT/Beamer、审稿与回复、README 和交付说明都要去 AI 化、去工程记录化。先写完整意思再安排版式，不省略决定专业含义的词；必要科学与复现信息保留。
 - 每轮逐句减少不必要的预防性辩解、否定式铺垫和重复免责声明；直接陈述发现，用有证据的具体边界代替笼统保留。保留必要不确定性、数学假设、局限、负结果和相关性／因果性区分，不增强结论。humanizer 与 humanizer-zh 辅助表达编辑，不能代替术语和科学含义核实。
 - 每个 skill 都从 SKILL.md 直接引用独立可读的 references/language.md，与 docs/language-conventions.md 保持一致；以后新增流程也遵守。修改语言要求时同时更新各份资料，不依赖用户另外提醒。

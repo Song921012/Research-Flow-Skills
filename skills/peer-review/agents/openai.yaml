@@ -1,4 +1,4 @@
 interface:
   display_name: "论文审稿"
   short_description: "使用我的 LaTeX 模板，以中性语气给出具体且有依据的学术审稿意见"
-  default_prompt: "使用 $peer-review，按我的 LaTeX 模板审读这篇论文，语气中性，意见具体并有依据。"
+  default_prompt: "使用 $peer-review，按本次要求审读论文，语气中性，意见具体并有依据；需要 LaTeX 报告时使用我的模板。"

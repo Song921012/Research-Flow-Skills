@@ -1,17 +1,17 @@
 ---
 name: literature-review
-description: 围绕科研问题检索、核实并整理文献。用于想法查新与前人研究梳理、为论文 Introduction 或特定方法和数学结论补引用，以及为已有方法寻找有开放数据的生物应用。想法综述默认交付使用 NoteTemplate 的中文 LaTeX；论文补引用直接修改论文，不另写综述报告。
+description: 用于科研想法查新、前人研究梳理、论文 Introduction 或方法与数学结论补引用，以及为已有方法寻找有开放数据的生物应用。按任务交付中文 NoteTemplate LaTeX、论文及 Bib 修改，或应用与数据建议。
 ---
 
 # 文献综述
 
-**所有文字先遵守[统一语言约定](references/language.md)。**采用领域通行术语，清楚说明研究对象、方法和目的；正文、图表、流程图、幻灯片与交付说明都要去 AI 化、去工程记录化，同时保留必要的科学与复现信息。
+先读[统一语言约定](references/language.md)。根据本次范围和下文指引读取所需资料；同一任务内已读的同版资料直接复用。
 
 先判断这次综述是为了解决什么问题，只读对应任务卡，不要求用户填写长表。
 
 | 用户想做什么 | 读取哪张卡 | 默认交付 |
 | --- | --- | --- |
-| 有个想法，想知道前人做到了哪里 | [想法与前人研究](references/idea-review.md) | 中文 LaTeX、参考文献；使用 NoteTemplate |
+| 有个想法，想知道前人做到了哪里 | [想法与前人研究](references/idea-review.md)；写独立综述时读 [NoteTemplate 用法](references/notetemplate.md) | 中文 LaTeX、参考文献；使用随技能提供的原模板 |
 | 论文里补背景、方法依据或数学结论的引用 | [给论文补文献](references/manuscript-citations.md) | 修改对应段落和 Bib，不另写报告 |
 | 已有方法或理论，想找实际应用和验证数据 | [找生物应用](references/application-search.md) | 少量值得做的应用、代表文献、数据入口及适配判断 |
 
@@ -28,7 +28,6 @@ description: 围绕科研问题检索、核实并整理文献。用于想法查�
 
 ## 需要时再读
 
-- 写独立中文综述时，读 [NoteTemplate 用法](references/notetemplate.md)，使用随技能提供的原模板。
 - 检索与学术写作时，读 [可组合的外部 skills](references/optional-skills.md)，优先使用 Academic Research Skills 的对应入口。
 - 如果最终要起草或修改整篇论文，接续同仓库的 paper-writing；只补引用时保持当前范围。
 

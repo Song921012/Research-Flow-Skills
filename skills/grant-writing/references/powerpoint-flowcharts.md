@@ -1,6 +1,6 @@
 # PowerPoint 技术路线图
 
-让评审看懂研究怎样回答科学问题，交付可继续编辑的 PowerPoint。基金写作负责研究内容与论证，图的构思、制作和视觉验收使用 research-presentation 的[科研图示任务卡](https://github.com/Song921012/Research-Flow-Skills/blob/main/skills/research-presentation/references/diagrams.md)。
+让评审看懂研究怎样回答科学问题，交付可继续编辑的 PowerPoint。基金写作负责研究内容与论证，图的构思、制作和视觉验收使用 [research-presentation](https://github.com/Song921012/Research-Flow-Skills/blob/main/skills/research-presentation/SKILL.md)，从主入口进入科研图示任务卡。
 
 ## 基金内容先核对
 
@@ -10,7 +10,7 @@
 
 ## 接入科研展示
 
-1. 使用可用的 research-presentation，读取其科研图示、资料与验收卡；将已核实的研究关系、申请书插图尺寸和 PowerPoint 要求交给它。
+1. 使用当前环境可用的 research-presentation，先读主入口与科研图示任务卡；构思时读资料卡，交付前读验收卡。传递已核实的研究关系、申请书插图尺寸、PowerPoint 要求与当前进度，只接续本次需要的工作。
 2. 由 AI 自主查相关技能和优秀范图、构思并选定方案，实际制作、看图修改、验收。用户反馈辅助校准，不要求用户逐轮选配色或布局。
 3. 核心方框、文字和连接线必须是 PowerPoint 原生可编辑对象；不能用整张位图或整张 SVG 嵌入冒充。
 4. 同时检查源稿渲染与申请书最终插图尺寸，核对科学关系、文字遮挡、箭头、裁切和可读性；源稿与正文采用的导出图保持一致。

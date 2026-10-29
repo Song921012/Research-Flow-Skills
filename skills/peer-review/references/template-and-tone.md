@@ -1,6 +1,6 @@
 # 模板与中性口吻
 
-使用主说明中的 review-template.tex。模板由用户常用的审稿 LaTeX 提炼，保留 amsart、原有版面尺寸、报告标题和编号意见，已去除旧稿名、稿号、作者信息、注释残留和具体评审内容。
+需要 LaTeX/PDF 报告时使用 [review-template.tex](../assets/review-template.tex)；只交文字意见时执行本页的组织与口吻约定。模板由用户常用的审稿 LaTeX 提炼，保留 amsart、原有版面尺寸、报告标题和编号意见，已去除旧稿名、稿号、作者信息、注释残留和具体评审内容。
 
 ## 组织方式
 

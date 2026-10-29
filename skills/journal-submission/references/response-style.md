@@ -1,6 +1,6 @@
 # 回复方式与模板用法
 
-使用主说明中的 response-template.tex。模板从用户提供的回复样式提炼，保留 elsarticle preprint 11pt、审稿人分节、编号意见、斜体 Referee、粗体 Response 与 Location；旧稿内容已替换为空白填写位置。
+使用 [response-template.tex](../assets/response-template.tex)。模板从用户提供的回复样式提炼，保留 elsarticle preprint 11pt、审稿人分节、编号意见、斜体 Referee、粗体 Response 与 Location；旧稿内容已替换为空白填写位置。
 
 ## 按这个口吻逐条写
 
