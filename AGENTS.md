@@ -1,6 +1,6 @@
 # 维护约定
 
-- 当前有 skills/paper-figures、skills/literature-review、skills/paper-writing、skills/journal-submission 和 skills/peer-review。先读对应 SKILL.md，再按任务读取直接链接的资料；用户只做局部修改时不要启动全套流程。
+- 当前有 skills/paper-figures、skills/literature-review、skills/paper-writing、skills/journal-submission、skills/peer-review、skills/grant-writing 和 skills/math-modeling。先读对应 SKILL.md，再按任务读取直接链接的资料；用户只做局部修改时不要启动全套流程。
 - 保持主说明简短，使用通俗中文。文献综述保留三类任务，论文写作保留六类任务；两者是可逐步改进的初版，不提前增加复杂框架。
 - 论文正文、Supplement 和 Cover Letter 避免工程笔记式表述。保留必要科学复现细节；运行、文件流转和 AI 修订记录放到稿件外。每轮审改都核对这一点。
 - 论文逐句减少不必要的预防性辩解、否定式铺垫和重复免责声明；直接陈述发现，用有证据的具体边界代替笼统保留。保留必要不确定性、局限、负结果和相关性／因果性区分，不增强结论；每轮审改都检查。
@@ -13,3 +13,8 @@
 - examples 的数据是解析函数插值演示，不能描述为用户的真实科研结果或新算法性能。修改绘图示例后才运行 examples/render_demo.py 并看图，以及 tests/check_export.py；仅修改文档不要重复这些测试。
 - 修改技能时核对 frontmatter、相对链接、触发范围、输出约定和外部来源不可用时的行为；仅作与本次更改相关的验证，不把格式通过等同于科学正确。
 - 公开案例必须具有发布授权，不上传私人稿件、数据、聊天记录、凭据或本地个人路径。任务卡不包含用户旧项目的未公开细节。
+
+- 外部来源优先使用原作者，确认删除或不可用后才使用用户 fork；定期同步只更新备用仓库，不改优先顺序。具体映射与入口在 docs/dependency-sources.json；不得猜测同名仓库关系。
+- 基金使用 grant-writing：先选本次适用技能和官方要求，再组织论证与精修；技术路线图用 PowerPoint 原生可编辑对象，渲染查看后交付 PPTX。
+- 数学建模使用 math-modeling：只处理指定题目，沿用 Paper/Codes 和用户模板，模型写详细，保存中间结果与进度，完整论文至少两轮实际审改。
+- 数学建模按当届官方规则处理匿名、AI 声明、附录和实际上传格式；交付提交材料包及完整项目包，不能把清理内部工作记录变成删除必需声明或来源。

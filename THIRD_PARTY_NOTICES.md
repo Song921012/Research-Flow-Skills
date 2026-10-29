@@ -35,3 +35,16 @@ journal-submission/assets/response-template.tex 与 peer-review/assets/review-te
 - **figures4papers：**复制、修改或分享其受许可材料时，仍须遵守非商业、署名及其他适用条件。将代码放在一个 MIT 仓库中不会消除这些条件。
 
 核心绘图流程使用本项目原创说明，并可用通用绘图库独立执行。若某个外部来源的许可或安装条件不适合当前任务，继续采用独立实现；不通过转存、改名或删去来源来规避原许可。项目中新产生的图和代码，按其实际使用的数据、素材与代码来源分别判断发布条件。
+
+## 基金与数学建模新增来源
+
+2026-10-29 核实以下来源，仅保存链接和原创工作流程，不打包第三方技能或模板全文。原作者仓库优先，已核实的用户 fork 仅作备用；来源映射见 [维护记录](docs/skill-sources.md)。
+
+| 来源 | 核实的许可与使用边界 |
+| --- | --- |
+| [huangwb8/ChineseResearchLaTeX](https://github.com/huangwb8/ChineseResearchLaTeX) | 根 [license.txt](https://github.com/huangwb8/ChineseResearchLaTeX/blob/d288ea832e4b2ffca5a0cca97576d3413391a342/license.txt) 为 MIT；模板、字体与第三方包分别保留适用声明。用于按需选取基金写作、摘要、质检和评审入口。 |
+| [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) | [MIT](https://github.com/op7418/Humanizer-zh/blob/f4518a8eab97b8bfebc66a89d34320a89bef6930/LICENSE)。仅用于中文表达编辑，保留事实、文体和结论强度。 |
+| [WuXinbo-bo/Math-model-skills](https://github.com/WuXinbo-bo/Math-model-skills) | 根 [LICENSE](https://github.com/WuXinbo-bo/Math-model-skills/blob/main/LICENSE) 为 MIT。实际技能名为 meta-model-agent，仅列为可替换参考，未认定是用户本地同名技能。 |
+| [latexstudio/CUMCMThesis](https://github.com/latexstudio/CUMCMThesis) | 本次未确认完整再分发许可；仅提供模板来源链接，不将该模板打包进本 MIT 仓库。用户已有模板仍需对照当届赛事规定。 |
+
+fork 不改变原始许可，备用更新不意味着本项目重新授权、改编或托管第三方内容。各 skill 仍按实际使用资源核实依赖和授权范围。

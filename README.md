@@ -11,6 +11,8 @@
 | [论文写作 / paper-writing](skills/paper-writing/SKILL.md) | 从粗稿、精修到投稿、后续想法和项目交接 | 初版，包含 6 张任务卡 |
 | [期刊投稿改稿 / journal-submission](skills/journal-submission/SKILL.md) | 按官网要求换模板，正式返修、逐条回复并更新原复现仓库 | 初版，含回复 LaTeX 模板 |
 | [论文审稿 / peer-review](skills/peer-review/SKILL.md) | 以中性语气写具体、有依据的审稿意见 | 初版，含常用审稿 LaTeX 模板 |
+| [基金写作 / grant-writing](skills/grant-writing/SKILL.md) | 先选适用 skills，再写作精修基金和可编辑 PowerPoint 技术路线图 | 初版，含写作与路线图任务卡 |
+| [数学建模 / math-modeling](skills/math-modeling/SKILL.md) | 按题目完成建模、实验、论文与匿名提交整理 | 初版，含分步工作和两份交付包约定 |
 
 先保持好用、简短，在真实任务中逐步改进。主说明只记录共用习惯，具体任务按需读取。
 
@@ -67,7 +69,23 @@
 
 两个模板由用户提供的 LaTeX 样式提炼，均为可填写的空白模板；原稿、真实审稿意见及私人信息不随模板公开。
 
+## 基金写作与数学建模
+
+**基金写作**先简短核查适用的基金 skills，再组织科学问题、立项依据、研究内容、研究基础和计划。当前选用 ChineseResearchLaTeX 中仍可用的写作与评审入口，以及 Humanizer-zh；具体入口见[基金资料卡](skills/grant-writing/references/resources.md)。
+
+技术路线图用 PowerPoint 原生形状、文本和连接线制作，交付可编辑 PPTX；检查实际导出图与申请书插图尺寸下的可读性。完整申请书至少两轮评审、改稿、润色与复核。
+
+> 按基金写作流程完善这份申请书，先选适用 skills，技术路线图用可编辑 PowerPoint 做。
+
+**数学建模**按指定题目逐步推进：先通俗读题，再详细建模、实验、画图、成文和两轮审改。沿用用户模板与 Paper、Codes 目录，及时保存结果和进度；用户只改一段或一张图时保持局部范围。
+
+> 按数学建模流程，只处理 A 题，沿用我提供的模板，最后给提交材料包和完整项目包。
+
+模型要有清楚的变量、方程、目标、约束与推导；论文用学术表达，减少工程笔记和不必要防御性论述。提交材料按当届规则匿名整理，AI 使用说明据实填写；附录和实际上传格式以比赛要求为准。两个 ZIP 是交给用户的整理包，不代表赛事要求把所有文件合成一个包上传。
+
 ## 模板与外部 skills
+
+**原作者优先，你的 fork 备用。**平时读取原作者的仓库；确认原仓库删除或确实不可用时，再使用已核实的用户备用副本。定期维护只更新备用副本，不改变来源顺序。六组来源、当前核实版本与维护方法见[外部 skills 与备用仓库](docs/skill-sources.md)。
 
 - **中文 NoteTemplate 已随两个新 skill 提供。**使用用户原始模板，包含 Chinese 与 English 两套；独立中文综述和后续想法默认用 Chinese。见 [原模板压缩包](skills/literature-review/assets/NoteTemplate.zip) 与 [使用方法](skills/literature-review/references/notetemplate.md)。
 - **期刊模板由用户指定。**[模板索引](skills/paper-writing/references/templates.md) 保存 Elsevier、PNAS、SIAM、Journal of Mathematical Biology 和 PLOS Computational Biology 的官方入口，使用时核对具体期刊与文章类型，不擅自修改 .cls。

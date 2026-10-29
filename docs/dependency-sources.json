@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "source_policy": "upstream-first; user fork only when upstream is removed or unavailable",
+  "verification_scope": "static repository identity, commit, entry and dependency paths, license; no full runtime validation",
+  "repositories": [
+    {
+      "upstream_repository": "ChenLiu-1996/figures4papers",
+      "backup_repository": "Song921012/figures4papers",
+      "upstream_branch": "main",
+      "backup_branch": "main",
+      "last_checked": "2026-10-29",
+      "last_verified_commit": "b709de17da7e8f9a72e51a5de5bced924a01eeab",
+      "entry_paths": [
+        "scientific-figure-making/SKILL.md"
+      ],
+      "required_paths": [
+        "scientific-figure-making/references/common-patterns.md",
+        "scientific-figure-making/references/design-theory.md",
+        "scientific-figure-making/references/demos.md"
+      ],
+      "license_path": "LICENSE",
+      "license": "CC BY-NC 4.0"
+    },
+    {
+      "upstream_repository": "Imbad0202/academic-research-skills",
+      "backup_repository": "Song921012/academic-research-skills",
+      "upstream_branch": "main",
+      "backup_branch": "main",
+      "last_checked": "2026-10-29",
+      "last_verified_commit": "b8d050f24f2e1c465c4410eace8634ea3af15930",
+      "entry_paths": [
+        "deep-research/SKILL.md",
+        "academic-paper/SKILL.md",
+        "academic-paper-reviewer/SKILL.md"
+      ],
+      "required_paths": [
+        "shared/references/routing_core.md",
+        "shared/ground_truth_isolation_pattern.md"
+      ],
+      "license_path": "LICENSE",
+      "license": "CC BY-NC 4.0"
+    },
+    {
+      "upstream_repository": "yjz211/vivid-illustration-skill",
+      "backup_repository": "Song921012/vivid-illustration-skill",
+      "upstream_branch": "main",
+      "backup_branch": "main",
+      "last_checked": "2026-10-29",
+      "last_verified_commit": "7adbe09d3d08c55a51733d3b1268fe54f7689559",
+      "entry_paths": [
+        "SKILL.md",
+        "channels/vivid-figure-skill/SKILL.md"
+      ],
+      "required_paths": [
+        "original/resources/ENTRYPOINT.md",
+        "requirements.txt"
+      ],
+      "license_path": "LICENSE",
+      "license": "Vivid Illustration Skill Personal Non-Commercial License v1.0"
+    },
+    {
+      "upstream_repository": "Yuan1z0825/nature-skills",
+      "backup_repository": "Song921012/nature-skills",
+      "upstream_branch": "main",
+      "backup_branch": "main",
+      "last_checked": "2026-10-29",
+      "last_verified_commit": "4a04b953c13c57adc51e202ce296597f00d29d67",
+      "entry_paths": [
+        "skills/nature-figure/SKILL.md"
+      ],
+      "required_paths": [
+        "skills/nature-figure/manifest.yaml",
+        "skills/nature-shared/SKILL.md",
+        "skills/nature-shared/core/nature-results-discussion.md"
+      ],
+      "license_path": "LICENSE",
+      "license": "Apache-2.0; third-party material separately licensed"
+    },
+    {
+      "upstream_repository": "op7418/Humanizer-zh",
+      "backup_repository": "Song921012/Humanizer-zh",
+      "upstream_branch": "main",
+      "backup_branch": "main",
+      "last_checked": "2026-10-29",
+      "last_verified_commit": "f4518a8eab97b8bfebc66a89d34320a89bef6930",
+      "entry_paths": [
+        "SKILL.md"
+      ],
+      "required_paths": [],
+      "license_path": "LICENSE",
+      "license": "MIT"
+    },
+    {
+      "upstream_repository": "huangwb8/ChineseResearchLaTeX",
+      "backup_repository": "Song921012/ChineseResearchLaTeX",
+      "upstream_branch": "main",
+      "backup_branch": "main",
+      "last_checked": "2026-10-29",
+      "last_verified_commit": "d288ea832e4b2ffca5a0cca97576d3413391a342",
+      "entry_paths": [
+        "skills/nsfc-justification-writer/SKILL.md",
+        "skills/nsfc-research-content-writer/SKILL.md",
+        "skills/nsfc-research-foundation-writer/SKILL.md",
+        "skills/nsfc-abstract/SKILL.md",
+        "skills/nsfc-qc/SKILL.md",
+        "skills/nsfc-reviewers/SKILL.md"
+      ],
+      "required_paths": [],
+      "license_path": "license.txt",
+      "license": "MIT; third-party material separately licensed"
+    }
+  ]
+}

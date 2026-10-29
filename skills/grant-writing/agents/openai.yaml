@@ -1,0 +1,4 @@
+interface:
+  display_name: "基金写作"
+  short_description: "按申报指南组织基金论证与精修，并制作可编辑的 PowerPoint 技术路线图"
+  default_prompt: "用 $grant-writing 先选取适用的基金 skills，再完善这份申请书和 PowerPoint 技术路线图。"

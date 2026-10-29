@@ -28,4 +28,4 @@ description: 作为审稿人阅读学术论文，以中性、专业、具体且�
 
 默认交付可编辑 LaTeX 和实际编译、检查过的 PDF；用户只要文字意见时直接给文字。正文简洁，实质意见解释充分，不强制固定条数。
 
-可按需读取 [Academic Research Skills 的审稿入口](https://github.com/Imbad0202/academic-research-skills/blob/main/academic-paper-reviewer/SKILL.md) 辅助复核；当前用户的中性语气、模板和任务范围优先。该外部入口采用 CC BY-NC 4.0，仅外链，不随本技能复制。
+可按需读取 [Academic Research Skills 的审稿入口](https://github.com/Imbad0202/academic-research-skills/blob/main/academic-paper-reviewer/SKILL.md) 辅助复核；当前用户的中性语气、模板和任务范围优先。原作者优先；原仓库删除或确实不可用时，才用[用户备用入口](https://github.com/Song921012/academic-research-skills/blob/main/academic-paper-reviewer/SKILL.md)，并核实所需 shared 资源。该外部入口采用 CC BY-NC 4.0，仅外链，不随本技能复制。两处均不可用时按本技能独立审读。

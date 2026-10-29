@@ -27,3 +27,15 @@
 - 简短记录实际读到的来源、采用的做法和完成的检查。检查输入数据与打开最终图像分别完成，外部技能名称或自动检查通过都不能替代这两项证据。
 
 本页核对日期：2026-10-29。精确版本与许可来源见公开仓库根目录的 `THIRD_PARTY_NOTICES.md`；本页本身已包含执行所需的许可边界，单独安装此 skill 时不依赖该仓库根文件。
+
+## 原作者优先，用户 fork 备用
+
+优先读取原作者来源的安装或仓库。确认原仓库删除、所需入口撤下且没有适用迁移入口，或当前确实不可用时，再用下表备用仓库中的相同路径。临时限流不等于删库；定期更新备用仓库不改变来源优先顺序。
+
+| 原仓库 | 用户备用 fork |
+| --- | --- |
+| yjz211/vivid-illustration-skill | [Song921012/vivid-illustration-skill](https://github.com/Song921012/vivid-illustration-skill) |
+| Yuan1z0825/nature-skills | [Song921012/nature-skills](https://github.com/Song921012/nature-skills) |
+| ChenLiu-1996/figures4papers | [Song921012/figures4papers](https://github.com/Song921012/figures4papers) |
+
+核实入口和所需共享资源完整，再按原许可使用；备用副本不改变许可，也不等于 Python、TeX、外部服务等运行环境已备份。两处均不可用时继续本项目独立绘图流程，并说明实际使用范围。

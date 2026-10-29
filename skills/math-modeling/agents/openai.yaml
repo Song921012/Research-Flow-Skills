@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学建模"
+  short_description: "按指定赛题逐步完成数学模型、数值实验、论文与匿名提交材料，保留可继续工作的完整项目"
+  default_prompt: "用 $math-modeling 处理指定赛题，先通俗读题，再逐步完成建模、实验、论文和两份交付包。"
