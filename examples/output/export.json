@@ -1,0 +1,12 @@
+{
+  "files": [
+    "interpolation.pdf",
+    "interpolation.svg",
+    "interpolation.png"
+  ],
+  "width_cm": 17.8,
+  "height_cm": 12.6,
+  "dpi": 300.0,
+  "data_origin": "Analytic solution; piecewise linear interpolation",
+  "scientific_scope": "Demonstration, not a research benchmark"
+}

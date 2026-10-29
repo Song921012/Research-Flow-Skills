@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文画图"
+  short_description: "从已有数值实验到论文成图：自主选图、查参考、绘制精修、核对与交接"
+  default_prompt: "使用 $paper-figures 根据论文和已有结果自主选图、绘制精修并完成审核交接。"
