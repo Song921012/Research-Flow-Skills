@@ -9,6 +9,8 @@
 | [论文画图 / paper-figures](skills/paper-figures/SKILL.md) | 从论文故事和已有结果出发，自主选图、画图、看图修改、审核交接 | 有可运行演示和绘图验证 |
 | [文献综述 / literature-review](skills/literature-review/SKILL.md) | 查前人、补论文引用、找生物应用和开放数据 | 初版，包含 3 张任务卡 |
 | [论文写作 / paper-writing](skills/paper-writing/SKILL.md) | 从粗稿、精修到投稿、后续想法和项目交接 | 初版，包含 6 张任务卡 |
+| [期刊投稿改稿 / journal-submission](skills/journal-submission/SKILL.md) | 按官网要求换模板，正式返修、逐条回复并更新原复现仓库 | 初版，含回复 LaTeX 模板 |
+| [论文审稿 / peer-review](skills/peer-review/SKILL.md) | 以中性语气写具体、有依据的审稿意见 | 初版，含常用审稿 LaTeX 模板 |
 
 先保持好用、简短，在真实任务中逐步改进。主说明只记录共用习惯，具体任务按需读取。
 
@@ -50,6 +52,20 @@
 **正文和 Supplement 都要写成学术论文，别加工程笔记类的话。**围绕科学问题、方法、证据与结论来写。脚本调用、文件流转、fallback、运行日志和 AI 修订过程放在需要它们的复现文档或内部记录；模型、离散、噪声、优化参数和统计规则完整保留，用准确的学术语言表达。每轮修改都检查这一条。
 
 **减少防御性论述。**逐句检查不必要的预防性辩解、否定式铺垫和重复免责声明。优先直接陈述研究发现，把笼统保留改为有依据的具体边界；保留必要的不确定性、研究局限与相关性／因果性区分，不增强原文结论。每轮审改都执行。
+
+## 期刊投稿改稿与论文审稿
+
+**期刊投稿改稿**有两个入口：[换模板](skills/journal-submission/references/change-template.md) 与 [收到意见后的返修](skills/journal-submission/references/revise-and-respond.md)。先读目标期刊当次官网要求，保留原稿和有效修改。返修逐条落实正文、附件与回复，至少两轮实际审改；已有代码、数据和结果按原仓库风格静态整理。
+
+> 按期刊投稿改稿流程处理这次返修，在原稿基础上修改，逐条回复，最后给论文与回复、更新后的复现仓库两个压缩包。
+
+回复使用 [response-template.tex](skills/journal-submission/assets/response-template.tex)，保留审稿人分节、Referee、Response 和 Location。具体回复以实际完成的工作和最终稿位置为依据。
+
+**论文审稿**用于作为审稿人评价论文，使用 [review-template.tex](skills/peer-review/assets/review-template.tex)。语气中性，意见有定位和依据，重点检查数学、科学解释及证据；推荐结论按实际稿件判断。
+
+> 用我的审稿模板审读这篇论文，语气中性，意见具体，尤其检查数学与科学解释。
+
+两个模板由用户提供的 LaTeX 样式提炼，均为可填写的空白模板；原稿、真实审稿意见及私人信息不随模板公开。
 
 ## 模板与外部 skills
 

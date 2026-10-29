@@ -1,0 +1,4 @@
+interface:
+  display_name: "期刊投稿改稿"
+  short_description: "按官方要求换模板，增量改稿、逐条回复并整理复现仓库与投稿包"
+  default_prompt: "使用 $journal-submission，按目标期刊要求处理这次投稿或返修，保留原稿并逐条核对修改与回复。"

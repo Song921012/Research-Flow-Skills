@@ -22,6 +22,12 @@
 
 论文模板索引只链接出版社、期刊或其发布的官方模板，具体文件继续遵守原许可。用户提供并授权加入的 NoteTemplate.zip 与这些外部模板不同：它作为原始资产随两个新 skill 提供，未打包它所依赖的第三方 TeX 宏包或字体。原包 SHA-256 为 36ceef0dd7e42a4fd778c32d792a988f9a40758c9f08d157beef3b1375b6ff00。
 
+## 用户提供的回复与审稿模板
+
+journal-submission/assets/response-template.tex 与 peer-review/assets/review-template.tex 从用户指定的回复及审稿 LaTeX 样式提炼，保留通用版式和组织方式。稿名、稿号、作者／邮箱、真实审稿意见及未公开科学内容均已移除，使用可填写位置替代。
+
+两个模板分别依赖 elsarticle 与 amsart，以及标准 TeX 宏包。技能不打包或修改这些类文件，也不将它们重新授权为 MIT。编译验证使用的 [elsarticle 官方包](https://ctan.org/pkg/elsarticle) 继续适用其 LPPL 许可，验证依赖不包含在公开仓库中。
+
 ## 使用时需要注意的边界
 
 - **Vivid：**现行许可限定个人非商业使用，并限制未经作者书面许可的修改、衍生、二次开发、再分发和商业使用。安装在本地不额外授予这些权利；引用它也不意味着可以将其模板改编后公开发布。

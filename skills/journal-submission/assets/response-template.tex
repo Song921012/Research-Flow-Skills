@@ -1,0 +1,81 @@
+% Compile twice with pdflatex.
+% Replace all bracketed fields with verified information before submission.
+% Keep the actual reviewer numbering and the editor's marking requirements.
+\documentclass[preprint,11pt,sort&compress,square]{elsarticle}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx,booktabs,xcolor}
+\usepackage[hidelinks]{hyperref}
+
+\textheight 230mm
+\textwidth 165mm
+\oddsidemargin=0mm
+\evensidemargin=0mm
+\headsep -1cm
+\setlength{\emergencystretch}{1em}
+\renewcommand{\baselinestretch}{1.2}
+
+\newcommand{\JournalName}{Journal name}
+\journal{\JournalName}
+\hypersetup{pdftitle={Response to reviewers},pdfauthor={}}
+\newcommand{\Placeholder}[1]{\textit{[#1]}}
+\newcommand{\Response}{\medskip\noindent\textbf{Response:} }
+\newcommand{\Where}[1]{\par\smallskip\noindent\textit{Location:} #1\par\medskip}
+\renewcommand{\thefigure}{R\arabic{figure}}
+
+\begin{document}
+\setlength{\baselineskip}{15pt}
+
+\noindent\textbf{Manuscript:} \Placeholder{Manuscript ID}\\
+\textbf{Title:} \Placeholder{Manuscript title}
+\bigskip
+
+\noindent Dear Editor,
+
+Please find attached \Placeholder{the files included in this revision}.
+We thank the editor and reviewers for their careful reading and comments.
+The main revisions concern \Placeholder{a brief, factual summary of the completed changes}.
+Our responses are given below.
+
+\Placeholder{When required, explain the actual change-marking convention and identify
+which manuscript version the page and line references refer to.}
+
+\section{Response to the first reviewer}
+\begin{enumerate}
+
+\item \emph{Referee: \Placeholder{Copy the first comment accurately.}}
+
+\Response We have revised \Placeholder{the specific passage or result} to
+\Placeholder{state the completed change and how it addresses the comment}.
+\Placeholder{Give the relevant explanation, verified result, or revised wording.
+Use as much detail as the comment requires.}
+\Where{\Placeholder{Main manuscript or Supplement; section, page, lines, and equation,
+figure, or table number as applicable.}}
+
+\item \emph{Referee: \Placeholder{Copy the next comment accurately.}}
+
+\Response We have clarified \Placeholder{the point raised by the reviewer} by
+\Placeholder{describing the actual clarification or correction}.
+\Placeholder{Explain the reasoning and include the essential revised text or evidence.}
+\Where{\Placeholder{The corresponding location in the final revised files.}}
+
+\end{enumerate}
+
+% Add, remove, or rename reviewer sections to match the decision letter.
+\section{Response to the second reviewer}
+\begin{enumerate}
+
+\item \emph{Referee: \Placeholder{Copy the comment accurately.}}
+
+\Response \Placeholder{Describe the completed change directly, explain the answer,
+and provide the evidence needed to resolve this particular comment.}
+\Where{\Placeholder{The corresponding location in the final revised files.}}
+
+\end{enumerate}
+
+% Add figures, equations, or references only when they help answer a comment.
+% Page and line locations must be checked after the manuscript layout is final.
+% No claim of a completed experiment, proof, or correction is prefilled here.
+\end{document}

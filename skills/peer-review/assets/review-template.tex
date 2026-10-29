@@ -1,0 +1,61 @@
+% Compile twice with pdflatex.
+% Replace the bracketed fields with observations supported by the manuscript.
+% Retain only the sections and items needed for this review.
+\documentclass{amsart}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\textwidth}{6.5truein}
+\setlength{\textheight}{8.5truein}
+\setlength{\oddsidemargin}{.05truein}
+\setlength{\evensidemargin}{.05truein}
+\setlength{\topmargin}{0.0truecm}
+\setlength{\emergencystretch}{1em}
+\renewcommand{\theequation}{\arabic{equation}}
+\hypersetup{pdftitle={Referee report},pdfauthor={}}
+\newcommand{\Placeholder}[1]{\textit{[#1]}}
+
+\begin{document}
+\setlength{\baselineskip}{15pt}
+
+\noindent Referee's Report for Manuscript \Placeholder{Manuscript ID}
+\bigskip
+
+\noindent Title: \Placeholder{Manuscript title}
+\medskip
+
+% Omit the next field when author information is not disclosed.
+\noindent Authors: \Placeholder{Author names, if disclosed}
+\bigskip
+
+\noindent Summary:
+\Placeholder{Describe the scientific question, approach, and principal results
+accurately and concisely. Use neutral language.}
+
+\Placeholder{Give an evidence-based overall assessment. If a recommendation is
+requested, state it with reasons supported by the points below.}
+The following points require clarification or revision.
+
+\begin{enumerate}
+
+\item \Placeholder{Identify a specific definition, assumption, theorem, or proof
+step. Explain the issue and what the authors need to clarify, justify, or correct.}
+
+\item \Placeholder{Identify a question about the experiment, evidence, scientific
+interpretation, or comparison. Explain why it matters to the stated conclusion
+and specify a proportionate clarification or revision.}
+
+\item \Placeholder{Identify another substantive point, with its location and the
+reason for the requested change. Add or remove items according to the manuscript.}
+
+\end{enumerate}
+
+% Keep this optional paragraph only when there are concrete presentation issues.
+\noindent Additional editorial points:
+\Placeholder{List any verified notation, figure, citation, grammar, or typographical
+issues, with locations.}
+
+\end{document}
