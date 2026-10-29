@@ -49,11 +49,16 @@
       "last_verified_commit": "7adbe09d3d08c55a51733d3b1268fe54f7689559",
       "entry_paths": [
         "SKILL.md",
-        "channels/vivid-figure-skill/SKILL.md"
+        "channels/vivid-figure-skill/SKILL.md",
+        "channels/vivid-architecture-diagram-skill/SKILL.md"
       ],
       "required_paths": [
         "original/resources/ENTRYPOINT.md",
-        "requirements.txt"
+        "requirements.txt",
+        "architecture/WORKFLOW.md",
+        "architecture/COMMON.md",
+        "architecture/PPTX.md",
+        "requirements-architecture.txt"
       ],
       "license_path": "LICENSE",
       "license": "Vivid Illustration Skill Personal Non-Commercial License v1.0"
@@ -66,12 +71,15 @@
       "last_checked": "2026-10-29",
       "last_verified_commit": "4a04b953c13c57adc51e202ce296597f00d29d67",
       "entry_paths": [
-        "skills/nature-figure/SKILL.md"
+        "skills/nature-figure/SKILL.md",
+        "skills/nature-paper2ppt/SKILL.md"
       ],
       "required_paths": [
         "skills/nature-figure/manifest.yaml",
         "skills/nature-shared/SKILL.md",
-        "skills/nature-shared/core/nature-results-discussion.md"
+        "skills/nature-shared/core/nature-results-discussion.md",
+        "skills/nature-paper2ppt/manifest.yaml",
+        "skills/nature-shared/core/terminology-ledger.md"
       ],
       "license_path": "LICENSE",
       "license": "Apache-2.0; third-party material separately licensed"

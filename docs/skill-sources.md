@@ -23,6 +23,14 @@
 
 英文 blader/humanizer 与 academic-writer 暂无已核实的用户备用仓库；Humanizer-zh 不是英文 humanizer 的相同副本。本地 math-model-skills 的来源需在使用环境核实，不猜测备用地址。
 
+## 科研展示新增的使用入口
+
+research-presentation 继续优先读取 Vivid 的 `channels/vivid-architecture-diagram-skill/SKILL.md` 和 Nature 的 `skills/nature-paper2ppt/SKILL.md`。两者沿用上表已核实的备用副本；本次已在记录的同一提交上检查架构图共同规则、PPTX 导出资料、架构依赖、paper2ppt manifest 与共享术语文件，并加入来源记录。
+
+数学 Beamer 使用 [YixuanYang00/math-beamer-slides-skill](https://github.com/YixuanYang00/math-beamer-slides-skill)，报告组织可参考 [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)。本次已读取准确入口和相关依赖说明，未核实这些项目的用户 fork，也未新增自动维护对象。具体读取方法、输出限制与可选 PaperBanana、AutoFigure 入口见[科研展示资料卡](../skills/research-presentation/references/resources.md)。
+
+新增引用不等于第三方工具已安装、外部服务已配置或所有路线完成运行验证；按任务选择并实际检查成品。
+
 ## 定期维护怎样做
 
 1. 读取来源记录，核实仓库身份、当前分支与双方提交；只维护记录中的用户备用仓库。

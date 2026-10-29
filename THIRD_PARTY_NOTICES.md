@@ -48,3 +48,16 @@ journal-submission/assets/response-template.tex 与 peer-review/assets/review-te
 | [latexstudio/CUMCMThesis](https://github.com/latexstudio/CUMCMThesis) | 本次未确认完整再分发许可；仅提供模板来源链接，不将该模板打包进本 MIT 仓库。用户已有模板仍需对照当届赛事规定。 |
 
 fork 不改变原始许可，备用更新不意味着本项目重新授权、改编或托管第三方内容。各 skill 仍按实际使用资源核实依赖和授权范围。
+
+## 科研展示新增来源
+
+2026-10-29 核对的科研图示与汇报入口如下，全部仅作外部引用，不打包其技能原文、代码、模板或素材。Vivid architecture 和 Nature paper2ppt 继续适用上文各自许可；当前环境自带的 Presentations skill 不随本仓库分发。
+
+| 来源 | 当前许可与本仓库用法 |
+| --- | --- |
+| [Math Beamer Slides Skill](https://github.com/YixuanYang00/math-beamer-slides-skill) | 根 [LICENSE](https://github.com/YixuanYang00/math-beamer-slides-skill/blob/main/LICENSE) 为 MIT；引用数学陈述、证明讲解与编译审核入口。 |
+| [K-Dense Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 根 [LICENSE.md](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/LICENSE.md) 为 MIT；按需引用 scientific-slides 与 scientific-schematics，实际工具或第三方服务另行满足条件。 |
+| [PaperBanana](https://github.com/dwzhu-pku/PaperBanana) | 根 [LICENSE](https://github.com/dwzhu-pku/PaperBanana/blob/main/LICENSE) 为 Apache-2.0，skill 有单独许可声明；可选参考图示检索、构思与迭代流程。 |
+| [AutoFigure](https://github.com/ResearAI/AutoFigure) | 根 [LICENSE](https://github.com/ResearAI/AutoFigure/blob/main/LICENSE) 为 MIT；作为可选 SVG/draw.io 工具入口。 |
+
+公开流程由本项目独立撰写。引用外部技能不等于将其重新授权为 MIT，也不代表已完成第三方服务的付费或运行验证。实际取用论文图、图标、字体与模板时，分别保留其来源及许可。
