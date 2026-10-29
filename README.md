@@ -35,10 +35,10 @@
 
 保留 `skills/paper-figures/` 的完整目录，包括 references、scripts 和 agents。
 
-- **Codex 项目：**把完整目录放到项目的 `.agents/skills/paper-figures/`。
-- **Claude Code 项目：**把完整目录放到项目的 `.claude/skills/paper-figures/`。
-- **支持从 GitHub 导入 skills 的环境：**使用本仓库，选择 `skills/paper-figures`；具体入口以该工具当前支持为准。
-- **普通对话：**提供主流程及相关资料，同时提供需要处理的数据、代码或图像。实际画图需要运行代码和查看图像的能力。
+- **Codex 项目：** 把完整目录放到项目的 `.agents/skills/paper-figures/`。
+- **Claude Code 项目：** 把完整目录放到项目的 `.claude/skills/paper-figures/`。
+- **支持从 GitHub 导入 skills 的环境：** 使用本仓库，选择 `skills/paper-figures`；具体入口以该工具当前支持为准。
+- **普通对话：** 提供主流程及相关资料，同时提供需要处理的数据、代码或图像。实际画图需要运行代码和查看图像的能力。
 
 仓库保存和更新流程；当前工具负责发现与执行。更新仓库后，确认本地安装副本也已更新。
 
